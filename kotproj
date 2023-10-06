@@ -1,2 +1,0 @@
-SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-java -cp "$SCRIPTPATH/kotproj.jar" haxidenti.kotproj.MainKt "$@"

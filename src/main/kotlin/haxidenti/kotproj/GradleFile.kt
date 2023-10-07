@@ -54,7 +54,7 @@ fun newGradleSrc(author: String, packageName: String, projectName: String): Stri
                 val rootScript = File(rootJar.nameWithoutExtension)
                 rootScript.delete()
                 rootScript.writeText(
-                    "#!/bin/bash"
+                    "#!/bin/bash\n"
                     + "SCRIPTPATH=\"\${'$'}( cd -- \"\${'$'}(dirname \"\${'$'}0\")\" >/dev/null 2>&1 ; pwd -P )\"\n"
                     + "java -cp \"\${'$'}SCRIPTPATH/${'$'}{rootJar.name}\" ${'$'}MAIN_CLASS \"\${'$'}@\""
                 )

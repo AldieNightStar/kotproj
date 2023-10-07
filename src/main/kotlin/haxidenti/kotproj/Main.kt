@@ -1,8 +1,5 @@
 package haxidenti.kotproj
 
-import haxidenti.kotproj.DEFAULT_AUTHOR
-import haxidenti.kotproj.generateProject
-
 fun main(args: Array<String>) {
     if (args.size < 2) {
         println(

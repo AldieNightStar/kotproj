@@ -8,7 +8,7 @@ fun newGradleSrc(author: String, packageName: String, projectName: String): Stri
         val MAIN_CLASS = "$packageName.MainKt"
         val AUTHOR = "$author"
         val VERSION = "1.0.0"
-        val CLI_NAME = "$projectName"
+        val CLI_NAME = "$projectName" 
         
         plugins {
             kotlin("jvm") version "$KOTLIN_VER"
